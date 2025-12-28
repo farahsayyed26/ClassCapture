@@ -6,7 +6,7 @@ Class-Capture is an intelligent EdTech platform designed to bridge the gap betwe
 ## Table of Content 
 * [About the Project](#-about-the-project)
 * [The Problem Statement](#-the-problem-statement)
-* [Our Solution](#-our-solution)
+* [Our Solution](#our-solution)
 * [Key Features](#-key-features)
 * [Technology Stack](#-technology-stack)
 * [System Architecture](#-system-architecture)
