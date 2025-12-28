@@ -1,21 +1,21 @@
 # ClassCapture
 A professional tool for capturing, organizing, and managing classroom lectures and digital notes.
-## Project Description
+##  About the Project 
 
 Class-Capture is an intelligent EdTech platform designed to bridge the gap between static classroom whiteboard photos and active learning using Google Gemini AI. By leveraging advanced vision models, the system converts messy, unorganized lecture snapshots into structured digital notes and actionable summaries. Beyond simple digitization, it ensures material mastery by automatically generating interactive practice quizzes and flashcards directly from the captured content. All data is securely hosted on a centralized Firebase cloud workspace, transforming buried gallery images into a searchable and accessible academic knowledge base.
 ## Table of Content 
-* [About the Project](#-about-the-project)
-* [The Problem Statement](#-the-problem-statement)
+* [About the Project](#about-the-project)
+* [Problem Statement](#problem-statement)
 * [Our Solution](#our-solution)
-* [Key Features](#-key-features)
-* [Technology Stack](#-technology-stack)
-* [System Architecture](#-system-architecture)
-* [Future Roadmap](#-future-roadmap)
-* [Getting Started](#-getting-started)
+* [Key Features](#key-features)
+* [Technology Stack](#technology-stack)
+* [System Architecture](#system-architecture)
+* [Installation and Setup](#installation-and-setup)
+
 ## Problem Statement 
-Modern students capture thousands of whiteboard photos during lectures to save time, yet these valuable academic insights often die in the smartphone gallery, buried under a mountain of personal media, screenshots, and memes. Because these images are stored as static, unsearchable JPEG files, students struggle to find specific concepts later, cannot easily copy mathematical formulas into their study guides, and often suffer from "digital offloading" a phenomenon where taking a photo actually decreases information retention. Without a way to organize, search, or interact with this visual data, the effort of capturing the lecture is largely wasted, leaving students with a chaotic "digital graveyard" of unorganized knowledge.
+In today’s classrooms, it’s common for students to take photos of whiteboards and handwritten notes to keep up with fast-paced lectures. However, these photos often end up getting lost in a cluttered phone gallery, mixed in with personal pictures and screenshots. This creates a major problem when it comes time to study, as these images are difficult to find and impossible to search through. Because the information is trapped in a static image, students can’t easily copy text or formulas, and the lack of interaction with the material often means they forget what was on the board shortly after the class ends.
 ## Our Solution
-ClassCapture bridges the gap between a messy photo gallery and an organized study workspace by transforming static classroom images into intelligent, interactive assets. Our platform utilizes Google Gemini 1.5 Pro to perform contextual OCR, recognizing not just handwritten text but also complex mathematical LaTeX formulas and diagram structures, which it then converts into clean, searchable Markdown notes. To combat passive learning, the system automatically generates AI-driven practice quizzes based on the uploaded content, encouraging active recall and long-term retention. Powered by a high-performance FastAPI backend and Firebase for secure cloud synchronization, Class-Capture provides students with a centralized, searchable hub where their academic data is refined, categorized, and always accessible across all devices.
+ClassCapture is a simple yet powerful tool that turns your lecture photos into organized, digital study guides. Using the latest AI technology, our app reads your whiteboard photos including messy handwriting and complex math and converts them into clean, searchable text. To help you actually learn the material instead of just saving it, the app automatically creates personalized practice quizzes based on your notes. By moving your academic photos into a secure, organized space, ClassCapture ensures your lecture notes are always easy to find, easy to read, and ready to help you succeed.
 ## Key Features
 * Intelligent Capture: High-fidelity OCR specifically tuned for classroom environments and diverse handwriting styles.
 * AI Summarization: Instant extraction of key concepts using Gemini 1.5 Flash.
@@ -26,9 +26,9 @@ ClassCapture bridges the gap between a messy photo gallery and an organized stud
 * Backend: Python, FastAPI, Axios.
 * AI Engine: Google Gemini 1.5 Pro & Flash.
 * Database: Firebase Authentication & Firestore.
-## System Architechture 
+## System Architecture 
 The project uses a decoupled architecture where a React dashboard sends data via secure POST requests to a FastAPI gateway, which then queries Google Gemini models based on the current load.
-## Installation & Setup
+## Installation and Setup
 1 Prerequisites
 * VS Code (Recommended Editor) 
 * Python 3.9+ (For the Backend) 
@@ -61,4 +61,6 @@ The project uses a decoupled architecture where a React dashboard sends data via
 * Once both servers are running, open your browser to http://localhost:3000.
 * Drag and drop a whiteboard photo into the "Drop Zone".
 * Wait for the Gemini AI to process the notes and generate your quiz.
+
+
   
