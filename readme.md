@@ -1,4 +1,4 @@
-# class-capture
+# ClassCapture
 A professional tool for capturing, organizing, and managing classroom lectures and digital notes.
 ## Project Description
 
@@ -6,13 +6,16 @@ Class-Capture is an intelligent EdTech platform designed to bridge the gap betwe
 ## Table of Content 
 * [About the Project](#-about-the-project)
 * [The Problem Statement](#-the-problem-statement)
+* [Our Solution](#-our-solution)
 * [Key Features](#-key-features)
 * [Technology Stack](#-technology-stack)
 * [System Architecture](#-system-architecture)
 * [Future Roadmap](#-future-roadmap)
 * [Getting Started](#-getting-started)
 ## Problem Statement 
-Modern students capture thousands of whiteboard photos, yet these valuable insights often die in the smartphone gallery, buried under personal media.
+Modern students capture thousands of whiteboard photos during lectures to save time, yet these valuable academic insights often die in the smartphone gallery, buried under a mountain of personal media, screenshots, and memes. Because these images are stored as static, unsearchable JPEG files, students struggle to find specific concepts later, cannot easily copy mathematical formulas into their study guides, and often suffer from "digital offloading" a phenomenon where taking a photo actually decreases information retention. Without a way to organize, search, or interact with this visual data, the effort of capturing the lecture is largely wasted, leaving students with a chaotic "digital graveyard" of unorganized knowledge.
+## Our Solution
+ClassCapture bridges the gap between a messy photo gallery and an organized study workspace by transforming static classroom images into intelligent, interactive assets. Our platform utilizes Google Gemini 1.5 Pro to perform contextual OCR, recognizing not just handwritten text but also complex mathematical LaTeX formulas and diagram structures, which it then converts into clean, searchable Markdown notes. To combat passive learning, the system automatically generates AI-driven practice quizzes based on the uploaded content, encouraging active recall and long-term retention. Powered by a high-performance FastAPI backend and Firebase for secure cloud synchronization, Class-Capture provides students with a centralized, searchable hub where their academic data is refined, categorized, and always accessible across all devices.
 ## Key Features
 * Intelligent Capture: High-fidelity OCR specifically tuned for classroom environments and diverse handwriting styles.
 * AI Summarization: Instant extraction of key concepts using Gemini 1.5 Flash.
